@@ -1,6 +1,6 @@
 tasks:
   - init: composer global require laravel/installer 
-          && composer create-project --prefer-dist etec 
+          && composer create-project --prefer-dist laravel/laravel etec 
           && cd etec 
           && composer create-project phpmyadmin/phpmyadmin 
           ;
