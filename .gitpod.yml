@@ -1,6 +1,6 @@
 tasks:
   - init: composer global require laravel/installer && mkdir dev && cd dev &&
-      composer create-porject phpmyadmin/phpmyadmin && cd .. && mysqladmin -u
+      composer create-project phpmyadmin/phpmyadmin && cd .. && mysqladmin -u
       root password 'gitpod';
     command: cd/phpmyadmin && php -S localhost:8085
 image:
