@@ -1,9 +1,4 @@
 tasks:
-  - init: composer global require laravel/installer 
-          && composer create-project --prefer-dist laravel/laravel etec
-          && composer create-project phpmyadmin/phpmyadmin
-          && mysqladmin -u root password 'gitpod'
-          && cd etec
-          && php artisan serve
+  - init: mysqladmin -u root password 'gitpod'
 image:
   file: .gitpod.Dockerfile
