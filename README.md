@@ -3,6 +3,5 @@
 # Laravel Aula 1
 ## Instalação e configuração
 1. Cofigurar o GitPod
-2. Automatizar a instalação do Laravel
-3. Automatizar a instalação do PHPMyAdmin
-4. Automatizar a instalação da imagem do Docker
+2. Instalação do Laravel
+3. Automatizar a instalação da imagem do Docker
